@@ -55,12 +55,13 @@ const Cart = () => {
 
         {/* Items */}
         <div className="space-y-4">
-          {cartItems.map((item) => (
-            <ItemList
-              key={item.name}
-              items={item}
-              showAddButton={false}
-            />
+          {cartItems.map((item, index) => (
+  <ItemList
+    key={index}          // ✅ unique key
+    items={item}
+    index={index}        // ✅ pass index
+    showAddButton={false}
+  />
           ))}
         </div>
       </div>

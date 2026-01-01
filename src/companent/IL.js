@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import { addItem } from "../utils/cartSlice";
 import { removeItem } from "../utils/cartSlice";
 
-const ItemList = ({ items, showAddButton }) => {
+const ItemList = ({ items, index, showAddButton }) => {
   const dispatch = useDispatch();
 
   const handleAddItem = (item) => {
@@ -10,8 +10,8 @@ const ItemList = ({ items, showAddButton }) => {
     console.log(item);
   };
 
-  const handleRemoveItem = (item) => {
-    dispatch(removeItem(item.name));
+  const handleRemoveItem = (index) => {
+    dispatch(removeItem(index));
     console.log(item);
   };
 
@@ -120,7 +120,7 @@ const ItemList = ({ items, showAddButton }) => {
             dark:text-neutral-300
             dark:bg-neutral-700
           "
-          onClick={() => handleRemoveItem(items)}
+          onClick={() => handleRemoveItem(index)}
         >
           Remove
         </button>

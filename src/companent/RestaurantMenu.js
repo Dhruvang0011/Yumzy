@@ -163,7 +163,8 @@ const RestaurantMenu = ({ restaurantIndex = null }) => {
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3 dark:text-neutral-300">
             <RestaurantCategory data={section} showItems={si=== showIndex ? true : false}
-               setShowIndex = {() => setShowIndex(si)} />
+               setShowIndex = {() =>
+              setShowIndex((prev) => (prev === si ? null : si))} />
               </h3>
 
               <div className="space-y-3">

@@ -6,3 +6,9 @@
 html {
   color-scheme: light dark;
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}

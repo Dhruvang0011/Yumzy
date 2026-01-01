@@ -4,38 +4,10 @@ import RestaurantCard, {
 
 import useOnlinestatus from "../utils/useOnlinestatus";
 import { Link } from "react-router-dom";
+import PosterImages from "./Posterimg";
 
 /* ---------------- Poster Images ---------------- */
-
-const PosterImages = () => {
-  return (
-    <section className="w-full overflow-x-auto">
-      <div className="flex gap-6 py-4">
-        {[
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZQ2EOFHccLin6flcdvBOUUM3jTu9nunivSg&s",
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5qPaNreHgNAnaPp3r5CmBQ0IdvEYwF-69Q&s",
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWGTxSv6rxPIeP58LlBwFgVI2CHV4j0IiGtQ&s",
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Qg7FCAGoN5rUYYmb5SxzwvpC-kmGgHELpQ&s",
-        ].map((src, i) => (
-          <img
-            key={i}
-            src={src}
-            alt={`Poster ${i + 1}`}
-            className="
-              h-44
-              min-w-[260px]
-              rounded-xl
-              object-cover
-              shadow-md
-              transition
-              hover:scale-[1.02]
-            "
-          />
-        ))}
-      </div>
-    </section>
-  );
-};
+<PosterImages />
 
 /* ---------------- Body ---------------- */
 
@@ -89,7 +61,7 @@ const Body = ({ listOfRestaurants, onTopRated }) => {
       {/* Restaurant Grid */}
       <section className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {listOfRestaurants.length === 0 ? (
-          <h3 className="col-span-full text-center text-neutral-500">
+          <h3 className="col-span-full text-center text-neutral-500 dark:text-neutral-200">
             No restaurants found
           </h3>
         ) : (
