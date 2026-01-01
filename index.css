@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* optional */
+html {
+  color-scheme: light dark;
+}
