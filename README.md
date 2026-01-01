@@ -1,15 +1,22 @@
-🍔 Yumzy – Food Ordering App
+🍔 Yumzy
 
-Yumzy is a modern food ordering web application built with React, Redux, and Tailwind CSS.
-It allows users to explore restaurants, view menus, add items to cart, and manage their orders with a clean and responsive UI.
+A Modern Food Ordering Web Application
 
-🚀 Live Demo
+Yumzy is a scalable, responsive food ordering web application designed to deliver a seamless restaurant discovery and ordering experience. The project follows modern frontend best practices with a clean architecture, reusable components, and centralized state management.
+
+
+🌐 Live Application : -
 
 👉 Live App: https://yumzy-lo1m.vercel.app/
 
 👉 GitHub Repo: https://github.com/Dhruvang0011/Yumzy
 
-✨ Features
+🧩 Overview : -
+
+Yumzy enables users to browse restaurants, explore categorized menus, apply filters, and manage a shopping cart with real-time updates. The application emphasizes performance, usability, and maintainability, closely resembling real-world food delivery platforms.
+
+
+✨ Features : -
 
 🏪 Browse restaurants
 
@@ -31,7 +38,7 @@ It allows users to explore restaurants, view menus, add items to cart, and manag
 
 ⬅️➡️ Scrollable poster carousel with arrows
 
-🛠️ Tech Stack
+🛠️ Tech Stack : -
 
 Frontend: React
 
@@ -45,29 +52,50 @@ Bundler: Parcel
 
 Deployment: Vercel
 
-📂 Project Structure
+📂 Project Structure : -
+
 src/
+
 ├── components/
+
 │   ├── Header.jsx
+
 │   ├── Body.jsx
+
 │   ├── BodyWrapper.jsx
+
 │   ├── RestaurantCard.jsx
+
 │   ├── RestaurantMenu.jsx
+
 │   ├── RestaurantCategory.jsx
+
 │   ├── Cart.jsx
+
 │   ├── ItemList.jsx
+
 │   └── PosterImages.jsx
+
 │
+
 ├── utils/
+
 │   ├── store.js
+
 │   ├── cartSlice.js
+
 │   └── mockdata.js
+
 │
+
 ├── App.jsx
+
 ├── index.css
+
 └── main.jsx
 
-⚙️ Installation & Setup
+
+⚙️ Installation & Setup : -
 
 Clone the repository:
 
@@ -89,7 +117,7 @@ Build for production:
 
 npx parcel build index.html
 
-🧠 Key Learnings
+🧠 Key Learnings : -
 
 React component architecture
 
@@ -103,7 +131,8 @@ Responsive UI with Tailwind CSS
 
 Real-world UI patterns (Swiggy/Zomato style)
 
-🔮 Future Improvements
+
+🔮 Future Improvements :-
 
 ➕ Quantity control for cart items
 
@@ -120,7 +149,7 @@ Real-world UI patterns (Swiggy/Zomato style)
 Contributions are welcome!
 Feel free to fork the repo and submit a pull request.
 
-👨‍💻 Author
+👨‍💻 Author : -
 
 Dhruvang
 GitHub: @Dhruvang0011
