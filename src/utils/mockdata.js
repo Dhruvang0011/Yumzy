@@ -367,7 +367,7 @@ let resList = [
 },
 
 {
-  id: "11",
+  id: "7",
   resName: "Biryani Blues",
   cuisines: "Biryani, Mughlai",
   rating: "4.4 stars",
@@ -413,7 +413,7 @@ let resList = [
 },
 
 {
-  id: "12",
+  id: "8",
   resName: "Chinese Wok",
   cuisines: "Chinese, Asian",
   rating: "4.0 stars",
@@ -459,7 +459,7 @@ let resList = [
 },
 
 {
-  id: "13",
+  id: "9",
   resName: "Udupi Upahar",
   cuisines: "South Indian",
   rating: "4.3 stars",
@@ -505,7 +505,7 @@ let resList = [
 },
 
 {
-  id: "14",
+  id: "10",
   resName: "Cafe Coffee Day",
   cuisines: "Cafe, Beverages",
   rating: "4.1 stars",

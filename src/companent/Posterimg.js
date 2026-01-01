@@ -1,7 +1,12 @@
+import { link } from "motion/react-client";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 const posters = [
+  {
+    img: "https://marketplace.canva.com/EAFyadayF_k/1/0/1600w/canva-red-and-yellow-modern-vibrant-food-promotion-banner-_oB9xQzKQAA.jpg",
+    link: "/restaurants/7"
+  },
   {
     img: "https://img.pikbest.com/origin/10/10/85/673pIkbEsTF98.jpg!f305cw",
     link: "/restaurants/1",
@@ -66,21 +71,28 @@ const PosterImages = () => {
           <div
             key={i}
             onClick={() => navigate(poster.link)}
-            className="cursor-pointer"
+            className="cursor-pointer  flex-shrink-0
+        snap-start"
           >
             <img
               src={poster.img}
               alt={`Poster ${i + 1}`}
               className="
-                h-44
-                w-[320px]
-                flex-shrink-0
-                rounded-xl
-                object-cover
-                shadow-md
-                transition
-                hover:scale-[1.05]
-                hover:shadow-lg
+                 rounded-xl
+          object-cover
+          shadow-md
+          transition
+          hover:scale-[1.03]
+        
+          w-[260px]
+          sm:w-[300px]
+          md:w-[340px]
+          lg:w-[380px]
+
+          
+          h-36
+          sm:h-40
+          md:h-44
               "
             />
           </div>
