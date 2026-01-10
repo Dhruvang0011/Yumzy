@@ -49,7 +49,7 @@ const AppLayout = () => {
     </div>
     </Provider>
   );
-};
+};  
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

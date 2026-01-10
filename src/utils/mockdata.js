@@ -204,7 +204,7 @@ let resList = [
             name: "Chocolate Sundae",
             price: "₹89",
             type: "veg",
-            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX5LZyZ7x&s"
+            img: "https://static01.nyt.com/images/2017/09/10/magazine/10ondessert/10ondessert-jumbo.jpg"
           }
         ]
       }

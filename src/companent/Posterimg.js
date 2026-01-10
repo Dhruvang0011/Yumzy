@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 
 const posters = [
   {
-    img: "https://marketplace.canva.com/EAFyadayF_k/1/0/1600w/canva-red-and-yellow-modern-vibrant-food-promotion-banner-_oB9xQzKQAA.jpg",
+    img: "https://s.tmimgcdn.com/scr/1200x750/298500/special-food-menu-poster-for-digital-marketing_298541-original.jpg",
     link: "/restaurants/7"
   },
   {
-    img: "https://img.pikbest.com/origin/10/10/85/673pIkbEsTF98.jpg!f305cw",
+    img: "https://i.pinimg.com/736x/f7/77/56/f777565eb4fc0bfe975bc0957b007ca2.jpg",
     link: "/restaurants/1",
   },
   {
